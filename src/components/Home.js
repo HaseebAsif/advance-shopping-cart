@@ -9,7 +9,7 @@ const Home = () => {
 
   console.log(products);
   return (
-    <div>
+    <div className="home">
       <Filters />
       <div className="productContainer">
         {products.map((item) => (
